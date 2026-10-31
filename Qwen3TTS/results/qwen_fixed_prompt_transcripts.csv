@@ -1,0 +1,61 @@
+Prompt,Experiment,PyTorch eager WER (%),vLLM-Omni WER (%),PyTorch eager transcript,vLLM-Omni transcript
+1,Base,0.0,0.0,The quick brown fox jumps over the lazy dog.,The quick brown fox jumps over the lazy dog.
+1,expA,0.0,0.0,The quick brown fox jumps over the lazy dog.,The quick brown fox jumps over the lazy dog.
+1,expB,0.0,0.0,The quick brown fox jumps over the lazy dog.,The quick brown fox jumps over the lazy dog.
+1,expC,0.0,0.0,The quick brown fox jumps over the lazy dog.,The quick brown fox jumps over the lazy dog.
+1,expD,0.0,0.0,The quick brown fox jumps over the lazy dog.,The quick brown fox jumps over the lazy dog.
+2,Base,0.0,0.0,Adelaide has great weather in spring.,Adelaide has great weather in spring.
+2,expA,0.0,0.0,Adelaide has great weather in spring.,Adelaide has great weather in spring.
+2,expB,0.0,0.0,Adelaide has great weather in spring.,Adelaide has great weather in spring.
+2,expC,0.0,0.0,Adelaide has great weather in spring.,Adelaide has great weather in spring.
+2,expD,0.0,0.0,Adelaide has great weather in spring.,Adelaide has great weather in spring.
+3,Base,0.0,0.0,Thank you for listening to this file.,Thank you for listening to this file.
+3,expA,0.0,0.0,Thank you for listening to this file.,Thank you for listening to this file.
+3,expB,0.0,0.0,Thank you for listening to this file.,Thank you for listening to this file.
+3,expC,0.0,0.0,Thank you for listening to this file.,Thank you for listening to this file.
+3,expD,0.0,0.0,Thank you for listening to this file.,Thank you for listening to this file.
+4,Base,0.0,0.0,Our group did excellent work on assignment 3.,Our group did excellent work on assignment 3.
+4,expA,0.0,0.0,Our group did excellent work on assignment 3.,Our group did excellent work on assignment 3.
+4,expB,0.0,0.0,Our group did excellent work on assignment 3.,Our group did excellent work on assignment 3.
+4,expC,0.0,0.0,Our group did excellent work on assignment 3.,Our group did excellent work on assignment 3.
+4,expD,0.0,0.0,Our group did excellent work on assignment three.,Our group did excellent work on assignment 3.
+5,Base,0.0,0.0,Can you hear the difference between these two voices?,Can you hear the difference between these two voices?
+5,expA,0.0,0.0,Can you hear the difference between these two voices?,Can you hear the difference between these two voices?
+5,expB,0.0,0.0,Can you hear the difference between these two voices?,Can you hear the difference between these two voices?
+5,expC,0.0,0.0,Can you hear the difference between these two voices?,Can you hear the difference between these two voices?
+5,expD,0.0,0.0,Can you hear the difference between these two voices?,Can you hear the difference between these two voices?
+6,Base,0.0,0.0,What a great result for our first experiment!,What a great result for our first experiment.
+6,expA,0.0,0.0,What a great result for our first experiment.,What a great result for our first experiment.
+6,expB,0.0,0.0,What a great result for our first experiment.,What a great result for our first experiment.
+6,expC,0.0,0.0,What a great result for our first experiment.,What a great result for our first experiment.
+6,expD,0.0,0.0,What a great result for our first experiment.,What a great result for our first experiment!
+7,Base,0.0,0.0,"We need clean text, good audio, and enough training time.","We need clean text, good audio, and enough training time."
+7,expA,0.0,0.0,"We need clean text, good audio, and enough training time.","We need clean text, good audio, and enough training time."
+7,expB,0.0,0.0,"We need clean text, good audio, and enough training time.","We need clean text, good audio, and enough training time."
+7,expC,0.0,0.0,"We need clean text, good audio, and enough training time.","We need clean text, good audio, and enough training time."
+7,expD,0.0,0.0,"We need clean text, good audio, and enough training time.","We need clean text, good audio, and enough training time."
+8,Base,0.0,0.0,"The first model was fast, the second model sounded more natural.",The first model was fast. The second model sounded more natural.
+8,expA,0.0,0.0,"The first model was fast, the second model sounded more natural.","The first model was fast, the second model sounded more natural."
+8,expB,0.0,0.0,"The first model was fast, the second model sounded more natural.","The first model was fast, the second model sounded more natural."
+8,expC,0.0,0.0,The first model was fast. The second model sounded more natural.,"The first model was fast, the second model sounded more natural."
+8,expD,0.0,0.0,"The first model was fast, the second model sounded more natural.",The first model was fast. The second model sounded more natural.
+9,Base,0.0,0.0,"I don't believe it is ready, but we will try it again tomorrow.","I don't believe it is ready, but we will try it again tomorrow."
+9,expA,0.0,0.0,"I don't believe it is ready, but we will try it again tomorrow.","I don't believe it is ready, but we will try it again tomorrow."
+9,expB,0.0,0.0,"I don't believe it is ready, but we will try it again tomorrow.","I don't believe it is ready, but we will try it again tomorrow."
+9,expC,0.0,0.0,"I don't believe it is ready, but we will try it again tomorrow.","I don't believe it is ready, but we will try it again tomorrow."
+9,expD,0.0,0.0,"I don't believe it is ready, but we will try it again tomorrow.","I don't believe it is ready, but we will try it again tomorrow."
+10,Base,0.0,0.0,"At the University, Dr. Brown and Mrs. Lee met Mr. Clark.","At the University, Dr. Brown and Mrs. Lee met Mr. Clark."
+10,expA,0.0,0.0,"At the University, Dr. Brown and Mrs. Lee met Mr. Clark.","At the University, Dr. Brown and Mrs. Lee met Mr. Clark."
+10,expB,0.0,0.0,"At the University, Dr. Brown and Mrs. Lee met Mr. Clark.","At the University, Dr. Brown and Mrs. Lee met Mr. Clark."
+10,expC,0.0,0.0,"At the University, Dr. Brown and Mrs. Lee met Mr. Clark.","At the University, Dr. Brown and Mrs. Lee met Mr. Clark."
+10,expD,0.0,0.0,"At the University, Dr. Brown and Mrs. Lee met Mr. Clark.","At the University, Dr. Brown and Mrs. Lee met Mr. Clark."
+11,Base,0.0,0.0,The class begins at 9 and there are 45 students in the class.,The class begins at 9 and there are 45 students in the class.
+11,expA,0.0,0.0,"The class begins at 9, and there are 45 students in the class.",The class begins at 9 and there are 45 students in the class.
+11,expB,0.0,0.0,"The class begins at 9, and there are 45 students in the class.",The class begins at 9 and there are 45 students in the class.
+11,expC,0.0,0.0,The class begins at 9 and there are 45 students in the class.,The class begins at 9 and there are 45 students in the class.
+11,expD,0.0,0.0,"The class begins at 9, and there are 45 students in the class.","The class begins at 9, and there are 45 students in the class."
+12,Base,0.0,0.0,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.
+12,expA,0.0,0.0,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.
+12,expB,0.0,0.0,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.
+12,expC,0.0,0.0,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.
+12,expD,0.0,0.0,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.

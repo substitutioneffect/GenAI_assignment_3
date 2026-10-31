@@ -1,0 +1,23 @@
+# Qwen3-TTS submission notebook: Google Colab, Python 3.12, NVIDIA A100 40 GB (installed by Step 1).
+# The optimized vLLM-Omni engine has its own pinned list: qwen_report_data/runtime/engine_requirements.txt.
+--extra-index-url https://download.pytorch.org/whl/cu128
+--only-binary=pynini
+qwen-tts @ git+https://github.com/QwenLM/Qwen3-TTS.git@022e286b98fbec7e1e916cb940cdf532cd9f488e
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+Unidecode==1.4.0
+transformers==4.57.3
+accelerate==1.12.0
+librosa==0.11.0
+jiwer==3.1.0
+openai-whisper==20250625
+nemo_text_processing==1.1.0
+pynini==2.1.6.post1
+huggingface_hub==0.36.0
+torch==2.11.0+cu128
+torchaudio==2.11.0+cu128
+scipy==1.16.3
+soundfile==0.14.0
+soxr==1.1.0
+matplotlib==3.10.3

@@ -1,0 +1,62 @@
+{
+  "comparator_lr": 5e-07,
+  "models": {
+    "Base": {
+      "checkpoint_sha256": null,
+      "label": "Base",
+      "lr": 0.0,
+      "scale": "1k",
+      "trained_epochs": 0
+    },
+    "expA": {
+      "best_epoch": 12,
+      "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/A3_Qwen/standalone_runs/qwen_formal_2em07_5em07_v1/training/formal/2em07/1k/best_epoch0012_1792586238356765570_114444538868008748927968852850715395916.pt",
+      "checkpoint_sha256": "5c39fc23a0e1d76c2674676b76918ceecda1773d56a66b2d63a926a27f222a46",
+      "label": "expA",
+      "lr": 2e-07,
+      "origin": "import_full_state",
+      "scale": "1k",
+      "trained_epochs": 20
+    },
+    "expB": {
+      "best_epoch": 6,
+      "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/A3_Qwen/standalone_runs/qwen_formal_2em07_5em07_v1/models/5em07/1k/best.pt",
+      "checkpoint_sha256": "00a46f48248d2c5d12e2cdf0a66dd80b4ad12a21bde2e565c1f7a32dbd1b82a2",
+      "label": "expB",
+      "lr": 5e-07,
+      "origin": "historical_formal",
+      "scale": "1k",
+      "trained_epochs": 20
+    },
+    "expC": {
+      "best_epoch": 10,
+      "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/A3_Qwen/standalone_runs/qwen_formal_2em07_5em07_v1/training/formal/2em07/2k/best_epoch0010_981974085880773240968518144728184331.pt",
+      "checkpoint_sha256": "537e58a6c8b030eff303309ea5c4c0edfebd86b2e8f4698d48d7489e87667c5b",
+      "label": "expC",
+      "lr": 2e-07,
+      "origin": "import_full_state",
+      "scale": "2k",
+      "trained_epochs": 20
+    },
+    "expD": {
+      "best_epoch": 4,
+      "checkpoint": "/content/drive/MyDrive/Colab_Notebooks/A3_Qwen/standalone_runs/qwen_formal_2em07_5em07_v1/models/5em07/2k/best.pt",
+      "checkpoint_sha256": "483978765c385d0770717b5a149b8b50a51a1e122a001f578c68e70e9ff63ebe",
+      "label": "expD",
+      "lr": 5e-07,
+      "origin": "historical_formal",
+      "scale": "2k",
+      "trained_epochs": 20
+    }
+  },
+  "ordered_labels": [
+    "Base",
+    "expA",
+    "expB",
+    "expC",
+    "expD"
+  ],
+  "primary_lr": 2e-07,
+  "schema": 1,
+  "selection": "predeclared; no LR reselection from these results"
+}

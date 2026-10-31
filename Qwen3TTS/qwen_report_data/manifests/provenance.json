@@ -1,0 +1,90 @@
+{
+  "available_wav_rows": 13100,
+  "common_test_count": 100,
+  "common_test_source": "1k_test.jsonl",
+  "counts": {
+    "1k": {
+      "test": 100,
+      "train": 800,
+      "val": 100
+    },
+    "2k": {
+      "test": 200,
+      "train": 1600,
+      "val": 200
+    }
+  },
+  "dependencies": {
+    "Unidecode": "1.4.0",
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.6.1"
+  },
+  "effective_batch_size": 8,
+  "epochs": 20,
+  "experiments": {
+    "exp0": {
+      "learning_rate": 0.0,
+      "samples": 1000,
+      "split": "1k",
+      "train": false
+    },
+    "expA": {
+      "learning_rate": 1e-05,
+      "samples": 1000,
+      "split": "1k",
+      "train": true
+    },
+    "expB": {
+      "learning_rate": 0.0001,
+      "samples": 1000,
+      "split": "1k",
+      "train": true
+    },
+    "expC": {
+      "learning_rate": 1e-05,
+      "samples": 2000,
+      "split": "2k",
+      "train": true
+    },
+    "expD": {
+      "learning_rate": 0.0001,
+      "samples": 2000,
+      "split": "2k",
+      "train": true
+    }
+  },
+  "manifest_sha256": {
+    "1k_test.jsonl": "fc74c914d132fc55aee1d771d8aaa41604ec3a9c18075f07db9cc739d21bcce2",
+    "1k_train.jsonl": "38bfbf8508b14813cd5a2c53ca5fa19f3b41f31994f9d25a5e1e11b681fff369",
+    "1k_val.jsonl": "621963a4e4bb7f18554953bc795328cc3767689061906f6475649e4bf92052e1",
+    "2k_test.jsonl": "ae5b0791df862704fa622c41e70ff07a544e397b49e4309b539aafc602e9cba5",
+    "2k_train.jsonl": "b125396eb79ef8babb9c88d3a55f4d81a2332729aa52ee9bcd3bb8512d118c86",
+    "2k_val.jsonl": "84869aeeb72e312c5b1ac727ad93c4cb0d293260887eaafd21d6cff6361be991",
+    "common_test.jsonl": "fc74c914d132fc55aee1d771d8aaa41604ec3a9c18075f07db9cc739d21bcce2",
+    "reference.json": "1a49f021568c932294161ca7cebafd7cddd7812e724d4e6af1f1d30097f4558d"
+  },
+  "max_grad_norm": null,
+  "metadata_rows": 13100,
+  "metadata_sha256": "852bce5c79e5184ba5bf2ea98aad4bcf49a5d787def5fd1f04fa2ab8aa6dc535",
+  "missing_wav_ids": [],
+  "optimizer": {
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "name": "AdamW",
+    "weight_decay": 0.01
+  },
+  "path_base": "LJSpeech-1.1 dataset root supplied to prepare_splits",
+  "protocol_version": 1,
+  "reference_in_1k_train": false,
+  "reference_source": "2k train_data.iloc[0], matching group notebook cell 23",
+  "reference_utt_id": "LJ043-0158",
+  "scheduler": null,
+  "seed": 42,
+  "source_notebook": "Submission_Template_A3-1.ipynb",
+  "text_cleaning": "group cell 13; num_handle=0; original abbreviation spellings preserved",
+  "warmup_steps": 0
+}
