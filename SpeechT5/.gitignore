@@ -1,0 +1,12 @@
+# model weights go to GitHub Releases, not Git
+checkpoints/
+*.safetensors
+*.bin
+*.zip
+
+# data and caches
+LJSpeech-1.1/
+*.tar.bz2
+pretrained_xvect/
+__pycache__/
+.ipynb_checkpoints/
