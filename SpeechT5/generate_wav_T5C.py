@@ -15,7 +15,6 @@ from pathlib import Path
 
 import requests
 import torch
-import torchaudio
 from unidecode import unidecode
 from nemo_text_processing.text_normalization.normalize import Normalizer
 from transformers import SpeechT5Processor, SpeechT5ForTextToSpeech, SpeechT5HifiGan
@@ -26,8 +25,7 @@ RUN_NAME = "ExpC"
 REPO = "substitutioneffect/GenAI_assignment_3"
 RELEASE_TAG = "V1.1"
 SEED = 42
-SAMPLE_RATE = 16000                # SpeechT5 output rate
-OUTPUT_RATE = 22050                # LJSpeech rate (output is resampled to this)
+SAMPLE_RATE = 16000
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 BASE_MODEL_ID = "microsoft/speecht5_tts"
 LORA_ADAPTER_NAME = "ljspeech"
@@ -85,11 +83,10 @@ input_ids = processor(text=clean_text(text, num_handle=1), return_tensors="pt")[
 torch.manual_seed(SEED)
 with torch.no_grad():
     speech = model.generate_speech(input_ids, speaker_embeddings=speaker, vocoder=vocoder, maxlenratio=8.0)  # (T,)
-speech = torchaudio.functional.resample(speech.cpu(), SAMPLE_RATE, OUTPUT_RATE)     # 16 kHz -> 22.05 kHz
-audio = speech.numpy().reshape(-1)
+audio = speech.cpu().numpy().reshape(-1)
 
 
 # ---- play (no file saved) ----
-print(f"{RUN_NAME}: {len(audio) / OUTPUT_RATE:.2f} s of audio at {OUTPUT_RATE} Hz")
+print(f"{RUN_NAME}: {len(audio) / SAMPLE_RATE:.2f} s of audio")
 from IPython.display import Audio, display
-display(Audio(audio, rate=OUTPUT_RATE))
+display(Audio(audio, rate=SAMPLE_RATE))
