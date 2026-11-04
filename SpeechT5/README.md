@@ -7,7 +7,7 @@ Fine-tuning Microsoft SpeechT5 to speak in the LJSpeech voice.
 | File | What it is |
 |---|---|
 | `Group17_A3_T5model.ipynb` | Full code: data, training, evaluation |
-| `generate_wav.py` | Turns any text into a WAV file |
+| `generate_wav_T5A.py` … `generate_wav_T5F.py` | One script per model: type text, hear the speech |
 | `requirements.txt` | Packages to install |
 | `results/` | Test results for every model (CSV) |
 | `wav_examples/` | 12 test sentences spoken by every model |
@@ -30,16 +30,15 @@ All models start from `microsoft/speecht5_tts`, train for 20 epochs (seed 42), a
 - **RTF**: generation time ÷ audio length; lower is faster.
 - Exp0, ExpA, ExpB, ExpE and ExpF use the 100-sentence test set; ExpC and ExpD use the 200-sentence test set.
 
-## Generate a WAV
+## Generate speech
 
-1. Download a model zip (for example `T5_ExpC.zip`) from the [Releases](https://github.com/substitutioneffect/GenAI_assignment_3/releases) page.
-2. Unzip it into `checkpoints/`, so you have `checkpoints/ExpC/`.
-3. Run:
+In Colab or Jupyter, from this folder:
 
-```bash
-pip install -r requirements.txt
-python generate_wav.py "Adelaide has great weather in spring."                   # uses ExpC
-python generate_wav.py "Adelaide has great weather in spring." checkpoints/ExpE  # any other model
+```python
+!pip install -q -r requirements.txt
+%env GH_TOKEN=your_github_token
+%run generate_wav_T5C.py "Adelaide has great weather in spring."
 ```
 
-The audio is saved in `wav_examples/`, for example `T5_Git_ExpC_01.wav`.
+An audio player appears under the cell (22,050 Hz); no file is saved. Change the letter (`T5A` … `T5F`) to hear another model.
+On the first run, each script downloads its model zip from the [Releases](https://github.com/substitutioneffect/GenAI_assignment_3/releases) page and unzips it into `checkpoints/`. The repo is private, so set your GitHub token once per session with `%env GH_TOKEN=...`; it is never written into the scripts.
