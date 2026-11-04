@@ -40,5 +40,5 @@ In Colab or Jupyter, from this folder:
 %run generate_wav_T5C.py "Adelaide has great weather in spring."
 ```
 
-An audio player appears under the cell (22,050 Hz); no file is saved. Change the letter (`T5A` … `T5F`) to hear another model.
+An audio player appears under the cell (16 kHz, same as the notebook); no file is saved. Change the letter (`T5A` … `T5F`) to hear another model.
 On the first run, each script downloads its model zip from the [Releases](https://github.com/substitutioneffect/GenAI_assignment_3/releases) page and unzips it into `checkpoints/`. The repo is private, so set your GitHub token once per session with `%env GH_TOKEN=...`; it is never written into the scripts.
