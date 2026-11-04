@@ -1,0 +1,14 @@
+file,prompt,best_wer,asr_text,latency_seconds,audio_seconds,rtf,wer_percent
+T5_ExpF_01.wav,The quick brown fox jumps over the lazy dog.,0.0, The quick brown fox jumps over the lazy dog.,1.6977267265319824,3.2896,0.5165634343830761,0.0
+T5_ExpF_02.wav,Adelaide has great weather in spring.,0.0, Adelaide has great weather in spring.,1.1620173454284668,2.2336,0.5203548888126424,0.0
+T5_ExpF_03.wav,Thank you for listening to this file.,0.0, Thank you for listening to this file.,1.0284080505371094,1.9392,0.5300817562479271,0.0
+T5_ExpF_04.wav,Our group did excellent work on assignment 3.,0.0, Our group did excellent work on assignment three.,1.5522817134857179,3.0336,0.5120867143125533,0.0
+T5_ExpF_05.wav,Can you hear the difference between these 2 voices?,0.0, Can you hear the difference between these two voices?,1.4500178337097167,2.7903999999999995,0.5197473067120096,0.0
+T5_ExpF_06.wav,What a great result for our first experiment!,0.0, What a great result for our first experiment.,1.4267992973327637,2.7008,0.5284337164363077,0.0
+T5_ExpF_07.wav,"We need clean text, and enough training time.",0.0, We need clean text and enough training time.,1.6653486728668212,3.2896,0.5061883630890391,0.0
+T5_ExpF_08.wav,"The first model was fast, the second model sounded more natural.",0.0, The first model was fast. The second model sounded more natural.,3.1980708599090577,6.4319999999999995,0.49759957441745784,5.454545454545454
+T5_ExpF_09.wav,"I don't believe it is ready, but we will try it again tomorrow.",0.0," I don't believe it is ready, but we will try it again tomorrow.",2.792957067489624,5.5232,0.5055107720734213,0.0
+T5_ExpF_10.wav,"At the university, Dr. Brown and Mrs. Lee met Mr. Clark.",18.181818181818183, at the University and Mrs. Lee met Mr. Clark.,3.367789077758789,6.6432,0.5071007294870394,29.090909090909093
+T5_ExpF_11.wav,The class begins at nine and there are forty-five students in the class.,0.0, The class begins at 9 and there are 45 students in the class.,2.5613287925720214,5.056,0.5071567358668136,0.0
+T5_ExpF_12.wav,"The model should be able to read new sentences clearly, and maintain a consistent reading speed; and pause at the correct location.",0.0, The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,4.592971420288086,9.209599999999998,0.49880981883400927,0.0
+MEAN,,1.5151515151515154,,2.207976404825846,4.345066666666665,0.5124694842226913,2.878787878787879
