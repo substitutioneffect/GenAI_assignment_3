@@ -180,24 +180,31 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-# Qwen: large model weights and training state (keep result records)
+# Model weights and training state, all models (Qwen best.pt/latest.pt, SpeechT5 safetensors, XTTS gpt_best.pth).
+# Qwen weights are shared on Google Drive and SpeechT5 weights on GitHub Releases (see README.md).
 *.pt
 *.pth
 *.ckpt
 *.safetensors
 *.onnx
-/checkpoints/
-/submission/checkpoints/
-Qwen3TTS/checkpoints/
+*.bin
+checkpoints/
 
-# Qwen: dataset downloads and extracted audio corpus
+# SpeechT5 release archives (T5_ExpA.zip ... T5_ExpF.zip are uploaded to GitHub Releases, not committed)
+release_zips/
+T5_Exp*.zip
+
+# Dataset downloads and extracted audio corpus
 LJSpeech-1.1/
 LJSpeech-1.1.tar.bz2
 
-# Qwen: generated evaluation caches (keep curated CSVs and WAV examples)
-/evaluation/
-/submission/evaluation/
-Qwen3TTS/evaluation/
+# Qwen: generated evaluation caches (keep curated CSVs in results/ and WAVs in wav_examples/)
+evaluation/
+
+# Colab / Google Drive for desktop metadata
+desktop.ini
+*.gdoc
+*.gsheet
 
 # Local credentials and machine-specific files
 .env.*
