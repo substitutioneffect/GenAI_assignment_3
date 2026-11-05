@@ -1,0 +1,14 @@
+file,prompt ,asr_text,generation_seconds,audio_seconds,rtf,wer_percent
+XTTS_expB_01.wav,The quick brown fox jumps over the lazy dog., The quick brown fox jumps over the lazy dog.,1.5837419033050537,3.3386666666666667,0.4743635892487182,0.0
+XTTS_expB_02.wav,Adelaide has great weather in spring., Adelaide has great weather in spring.,1.5837574005126953,3.296,0.4805089200584634,0.0
+XTTS_expB_03.wav,Thank you for listening to this file., Thank you for listening to this file.,1.084960699081421,2.176,0.4986032624455059,0.0
+XTTS_expB_04.wav,Our group did excellent work on assignment 3., Our group did excellent work on assignment. 3.,1.849991798400879,4.085333333333334,0.4528374180158809,0.0
+XTTS_expB_05.wav,Can you hear the difference between these 2 voices?, Can you hear the difference between these two voices?,1.5404841899871826,3.2426666666666666,0.47506708161611305,0.0
+XTTS_expB_06.wav,What a great result for our first experiment!, What a great result for our first experiment.,1.5635571479797363,3.3813333333333335,0.46240846253343937,0.0
+XTTS_expB_07.wav,"We need clean text, and enough training time.", We need clean text and enough training time.,1.5547099113464355,3.3813333333333335,0.45979196904961617,0.0
+XTTS_expB_08.wav,"The first model was fast, the second model sounded more natural."," The first model was fast, the second model sounded more natural.",2.1022377014160156,4.64,0.453068470132762,0.0
+XTTS_expB_09.wav,"I don't believe it is ready, but we will try it again tomorrow."," I don't believe it is ready, but we will try it again tomorrow.",1.880936861038208,4.1706666666666665,0.4509918944305166,0.0
+XTTS_expB_10.wav,"At the university, Dr. Brown and Mrs. Lee met Mr. Clark."," at the University, Dr. Brown, and Mrs. Lee Net Mr. Clark.",2.455488443374634,5.386666666666667,0.4558456268641028,9.090909090909092
+XTTS_expB_11.wav,The class begins at nine and there are forty-five students in the class.," The class begins at 9, and there are 45 students in the class.",2.557950973510742,5.664,0.4516156379785915,0.0
+XTTS_expB_12.wav,"The model should be able to read new sentences clearly, and maintain a consistent reading speed; and pause at the correct location.", The model should be able to read new sentences clearly and maintain a consistent reading speed and pause at the correct location.,4.665443420410156,10.304,0.4527798350553335,0.0
+MEAN,,,2.03527170419693,4.4222222222222225,0.4639901806190869,0.7575757575757577

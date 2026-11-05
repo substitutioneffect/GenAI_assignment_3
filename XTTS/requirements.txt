@@ -1,0 +1,26 @@
+# Python dependencies for XTTS.ipynb.
+# Install in the notebook's Google Colab runtime.
+# Package versions absent from the saved run are left unpinned.
+# Capture a full environment with: python -m pip freeze > requirements-lock.txt
+# torch and torchaudio must use matching releases and the correct CUDA build.
+
+coqui-tts[codec]
+openai-whisper
+jiwer
+Unidecode
+nemo_text_processing
+
+torch
+torchaudio
+transformers
+huggingface-hub
+
+numpy
+pandas
+matplotlib
+librosa
+soundfile
+scikit-learn
+
+IPython
+ipykernel
